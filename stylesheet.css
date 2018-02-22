@@ -30,6 +30,9 @@ h3 {
 p {
   margin: 0px 0 30px 40px;
 }
+img {
+  image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
 
 .Welcome {
   background-color: blue;
