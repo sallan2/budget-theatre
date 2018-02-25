@@ -55,3 +55,10 @@ header {
   width: 100%;
   display: inline-block;
 }
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
