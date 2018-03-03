@@ -3,50 +3,77 @@
 }
 
 body {
-  font-family: helvetica, sans-serif;
-  margin: 0px
-  max-width: 1400px;
-  { margin: 0px; padding: 0px; }
+font-family: helvetica, sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Patua One', cursive;
   text-align: left;
   color: #FFC30F;
-  margin: 20px 0 0 10px;
+  margin: 20px 0 20px 40px;
   font-size: 75px;
   letter-spacing: 2px;
 }
+
 h2 {
   font-size: 60px;
-  margin: 10px 0 40px 30px;
 }
+
 h3 {
-  text-align: left;
+  /* text-align: left;
   color: white;
   margin: 0px 0 5px 40px;
+  */
   font-size: 40px;
 }
+
 p {
   margin: 0px 0 30px 40px;
+
 }
+
 img {
   image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
 
+.test {
+  margin: 0px 0 40px 0px;
+}
+
 .Welcome {
   background-color: blue;
+  padding: 10px;
 }
+
 .whatson {
   background: green;
+  padding: 10px;
 }
+
 .contact {
   background: yellow;
+  padding: 10px;
 }
-html, body {
-    margin: 0;
-    padding: 0
+.row {
+  color: white;
+  padding: 10px;
 }
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 70px;
+  float: right;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #FFC30F;
+  position: static;
+}
+
+.container-fluid {
+  float: right;
+}
+
 header {
   background: url('https://peoplemakeglasgow.com/images/Clydeside1.jpg');
   background-position: center;
@@ -56,6 +83,60 @@ header {
   display: inline-block;
 }
 
+form {
+  /* Just to center the form on the page */
+  margin: 0px 0 30px 40px;
+  width: 300px;
+  padding: 10px;
+  /* To see the outline of the form */
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 300px;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 300px;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px;
+  background-color: #black;
+  font-family: 'Patua One', cursive;
+  color: #FFC30F;
+
+   /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
 @media only screen and (max-width: 1200px) {
     /* For mobile phones: */
     [class*="col-"] {
