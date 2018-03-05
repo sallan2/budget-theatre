@@ -64,6 +64,7 @@ img {
   /*background: yellow;*/
   padding: 10px;
 }
+
 .row {
   color: white;
   padding: 10px;
@@ -95,9 +96,10 @@ header {
 
 form {
   /* Just to center the form on the page */
-  margin: 0px 0 30px 40px;
   width: 300px;
   padding: 10px;
+  margin:0 auto;
+	position:relative;
   /* To see the outline of the form */
 }
 
@@ -134,8 +136,6 @@ textarea {
 
 .button {
   /* To position the buttons to the same position of the text fields */
-  padding-left: 90px;
-  background-color: #black;
   font-family: 'Patua One', cursive;
   color: #FFC30F;
 
@@ -146,10 +146,37 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
+  color: black;
 }
 @media only screen and (max-width: 1200px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #FFC30F;
+}
+
+.button1:hover {
+    background-color: #FFC30F;
+    color: white;
 }
