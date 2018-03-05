@@ -4,19 +4,25 @@
 
 body {
 font-family: helvetica, sans-serif;
+background-color: #900C3F;
 }
 
 h1, h2, h3 {
   font-family: 'Patua One', cursive;
-  text-align: left;
+  text-align: center;
   color: #FFC30F;
-  margin: 20px 0 20px 40px;
+  margin: 10px 0 10px 40px;
   font-size: 75px;
   letter-spacing: 2px;
 }
 
+h1 {
+  padding: 50px 0 0 0;
+}
+
 h2 {
   font-size: 60px;
+  padding: 0 0 60px 0;
 }
 
 h3 {
@@ -25,10 +31,14 @@ h3 {
   margin: 0px 0 5px 40px;
   */
   font-size: 40px;
+  padding: 0 0 20px 0;
 }
 
 p {
-  margin: 0px 0 30px 40px;
+  margin: 0px 250px 0 250px;
+  color: #FFC30F;
+  text-align: center;
+
 
 }
 
@@ -41,17 +51,17 @@ img {
 }
 
 .Welcome {
-  background-color: blue;
+  /*background-color: blue; */
   padding: 10px;
 }
 
 .whatson {
-  background: green;
+  /*background: green;*/
   padding: 10px;
 }
 
 .contact {
-  background: yellow;
+  /*background: yellow;*/
   padding: 10px;
 }
 .row {
