@@ -84,6 +84,10 @@ img {
 .container-fluid {
   float: right;
 }
+.form-text {
+  color: #FFC30F;
+
+}
 
 header {
   background: url('https://peoplemakeglasgow.com/images/Clydeside1.jpg');
