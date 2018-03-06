@@ -41,6 +41,10 @@ p {
 
 
 }
+.navbar-brand {
+  color: #FFC30F;
+}
+
 
 img {
   image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -79,6 +83,7 @@ img {
   border-radius: 50%;
   color: #FFC30F;
   position: static;
+  margin: 0 auto;
 }
 
 .container-fluid {
@@ -87,6 +92,9 @@ img {
 .form-text {
   color: #FFC30F;
 
+}
+.navbar-header {
+  color: #FFC30F;
 }
 
 header {
@@ -183,4 +191,9 @@ button {
 .button1:hover {
     background-color: #FFC30F;
     color: white;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+  font-family: helvetica, sans-serif;
 }
