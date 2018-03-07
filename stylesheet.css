@@ -136,6 +136,7 @@ p.headerparagraph {
   background: rgba(0, 0, 0, 0.5);
   margin: 0px 250px 0 250px;
   border-radius: 15px;
+  padding: 10px;
 }
 
 header {
