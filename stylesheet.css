@@ -35,12 +35,45 @@ h3 {
 }
 
 p {
-  margin: 0px 250px 0 250px;
   color: #FFC30F;
   text-align: center;
-
-
 }
+
+/* This margin part of this class currently isn't working... */
+.showimages img {
+  margin-right: 50px;
+  border-radius: 8px;
+}
+
+.img_wrap {
+  position: relative;
+  height: 317px; /* The image height should be 300px but for some reason the description box height has to be 317px - very specifically */
+  width: 250px;
+}
+
+.bunny_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .bunny_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 .navbar-brand {
   color: #FFC30F;
 }
@@ -97,13 +130,19 @@ img {
   color: #FFC30F;
 }
 
+p.headerparagraph {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px 250px 0 250px;
+}
+
 header {
-  background: url('https://peoplemakeglasgow.com/images/Clydeside1.jpg');
+  background: url('https://hotelconnexions.com/images/hotels/large7/1497603357HiltonGardenInnGlasgowExterior.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   display: inline-block;
+
 }
 
 form {
