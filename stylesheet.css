@@ -81,11 +81,6 @@ p {
 }
 
 
-.navbar-brand {
-  color: #FFC30F;
-}
-
-
 img {
   image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
@@ -140,7 +135,7 @@ img {
 p.headerparagraph {
   background: rgba(0, 0, 0, 0.5);
   margin: 0px 250px 0 250px;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 header {
