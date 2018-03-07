@@ -39,6 +39,11 @@ p {
   text-align: center;
 }
 
+.image_container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 /* This margin part of this class currently isn't working... */
 .showimages img {
   margin-right: 50px;
@@ -49,9 +54,11 @@ p {
   position: relative;
   height: 317px; /* The image height should be 300px but for some reason the description box height has to be 317px - very specifically */
   width: 250px;
+  margin: 5px;
+  display: inline-block;
 }
 
-.bunny_description {
+.item_description {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -68,7 +75,7 @@ p {
   transition: opacity .2s, visibility .2s;
 }
 
-.img_wrap:hover .bunny_description {
+.img_wrap:hover .item_description {
   visibility: visible;
   opacity: 1;
 }
@@ -133,6 +140,7 @@ img {
 p.headerparagraph {
   background: rgba(0, 0, 0, 0.5);
   margin: 0px 250px 0 250px;
+  border-radius: 25px;
 }
 
 header {
