@@ -55,3 +55,18 @@ header {
   width: 100%;
   display: inline-block;
 }
+
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    line-height: 20px; /*changes space between line*/
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 25%; /* Full width */
+    padding-top: 10px;
+  }
