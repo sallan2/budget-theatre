@@ -50,8 +50,11 @@ p {
 .showimages img {
   margin-right: 50px;
   border-radius: 8px;
-  border: 2px solid #FFC30F; /* I'd like to add a 1px black line around the yellow border if I can work it out... */
+  padding: 2px;
+  border: 1px solid #000000;
+  background-color: #FFC30F;
   }
+
 
 
 .img_wrap {
