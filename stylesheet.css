@@ -66,6 +66,7 @@ p {
   border: 2px solid #FFC30F; /* I'd like to add a 1px black line around the yellow border if I can work it out... */
   }
 
+
 .img_wrap {
   position: relative;
   height: 317px; /* The image height should be 300px but for some reason the description box height has to be 317px - very specifically */
@@ -91,6 +92,7 @@ p {
   transition: opacity .2s, visibility .2s;
   border-radius: 8px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .img_wrap:hover .item_description {
