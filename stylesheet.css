@@ -33,22 +33,9 @@ h2 {
 }
 
 h3 {
-  /* text-align: left;
-  color: white;
-  margin: 0px 0 5px 40px;
-  */
   font-size: 40px;
   padding: 0 0 20px 0;
 }
-/*
-h3.welcome_header {
-  background: rgba(0, 0, 0, 0.5);
-  margin: 0px 250px 0 250px;
-  border-radius: 15px;
-  padding: 10px;
-  color: #FFC30F;
-}
-*/
 
 p {
   color: #FFC30F;
@@ -84,7 +71,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   background: rgba(255, 255, 255, 0.5);
   color: black;
   visibility: hidden;
@@ -93,6 +79,11 @@ p {
   border-radius: 8px;
   font-size: 20px;
   font-weight: bold;
+}
+
+em {
+  position: absolute;
+  margin-top: -30px;
 }
 
 .img_wrap:hover .item_description {
@@ -110,17 +101,14 @@ img {
 }
 
 .Welcome {
-  /*background-color: blue; */
   padding: 10px;
 }
 
 .whatson {
-  /*background: green;*/
   padding: 10px;
 }
 
 .contact {
-  /*background: yellow;*/
   padding: 10px;
 }
 
@@ -174,11 +162,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0 50px 0; /* I'd like to add a border and radius to this but I can't seem to attach the class to the right element in the html to make sure it also stays centered */
+  margin: 0 0 50px 0;
 }
 
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
 header {
-  background: url('http://www.nextstepinitiative.org.uk/wp-content/uploads/2017/01/glasgow-city.jpg'); /* I need to photoshop the watermark out of this...*/
+  background: url('backgroung_img.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
