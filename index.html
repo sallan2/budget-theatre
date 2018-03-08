@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="./stylesheet.css">
   <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   <title> Glasgow Theatre on a Budget </title>
 </head>
 
@@ -37,18 +38,13 @@
     <div class='test'>
       <h1> Experience Glasgow's Theatre </h1>
       <h2> On a Budget </h2>
-      <h3> Welcome! </h3>
-      <p class="headerparagraph"> This website is aimed at students who want to go to the theatre but can't afford the £60 tickets of the King's. Here you'll find an index of cheap and accessible productions - allowing you to fulfil your thespian desires at least once a week!</p>
+      <div class="headerparagraph">
+        <h3> Welcome! </h3>
+        <p> This website is aimed at students who want to go to the theatre but can't afford the high ticket prices of the big scale musicals. Here you'll find an index of cheap and accessible productions - allowing you to fulfil your thespian desires at least once a week!</p>
+      </div>
     </div>
   </header>
-  <!--
-  <div class='Welcome'>
-    <h3> Welcome </h3>
-    <p> Welcome to Glasgow Theatre on a Budget!
-      This website is aimed at students who want to go to the theatre but can't afford the £60 tickets of the King's.
-      Here you'll find an index of cheap and accessible productions - allowing you to fulfil your thespian desires at least once a week!</p>
-  </div>
--->
+
   <div class='whatson'>
 
     <div class="row">
@@ -59,20 +55,53 @@
             <a href="https://www.tron.co.uk/event/bunny/">
               <div class="img_wrap">
                 <img class="show_item" src="https://www.tron.co.uk/docs/059_303__bunnyportraitweb_1510592033_standard.jpg" width="250px" height="300px">
-                <p class="item_description"> Bunny £8.50 </p>
+                <p class="item_description">
+                    Bunny
+                          <br />
+                          <br />
+                    £8.50 <br />
+                    The Tron
+                </p>
             </a>
             </div>
-            <div class="img_wrap">
+            <a href="http://www.citz.co.uk/whatson/info/shappi-khorsandi-mistress-and-misfit">
+              <div class="img_wrap">
               <img src="https://res.cloudinary.com/citizens-theatre/image/fetch/q_auto,f_auto/http://www.citz.co.uk/images/uploads/whatson/_constrain-960w/web_Shappi_Khorsandi_2017_c_Matt_Crockett.jpg" width="250px" height="300px">
+              <p class="item_description">
+                Shappi Khorsandi: Mistress and Misfit
+                <br />
+                <br />
+                £16 <br />
+                The Citizens Theatre
+
+              </p>
+            </a>
             </div>
-              <a href="http://www.studenttheatreatglasgow.com/">
+              <a href="https://www.facebook.com/events/839698852903965/">
             <div class="img_wrap">
               <img src="https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/22448494_1581837638548132_6854675555250975973_n.png?oh=ec315cec68a353a09d18433512dc6ec6&oe=5B43B22A" width="250px" height="300px">
-              <p class="item_description"> There's ALWAYS cheap theatre here </p>
+              <p class="item_description">
+                One Man Two Guvnors
+                <br />
+                <br />
+                By Student Theatre at Glasgow <br />
+                £7 <br />
+                Websters Theatre
+              </p>
             </a>
             </div>
+            <a href="http://playpiepint.com/">
             <div class="img_wrap">
               <img src="https://media.consumeraffairs.com/files/cache/news/beer-pint_medium.jpg" width="250px" height="300px">
+              <p class="item_description">
+                A Play, A Pie, and A Pint
+                <br />
+                <br />
+                £10 <br />
+                Oran Mor <br />
+                (Includes a pie and a pint!)
+              </p>
+            </a>
             </div>
           </div>
         </div>
@@ -112,7 +141,10 @@
       </div>
     </div>
   </footer>
-
+  <script>
+  $("button").on("click", function() { alert("Thanks for getting in touch!")
+  });
+ </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -14,6 +14,13 @@ h1, h2, h3 {
   margin: 10px 0 10px 40px;
   font-size: 75px;
   letter-spacing: 2px;
+  -webkit-text-stroke: 1px black;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 h1 {
@@ -33,6 +40,15 @@ h3 {
   font-size: 40px;
   padding: 0 0 20px 0;
 }
+/*
+h3.welcome_header {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px 250px 0 250px;
+  border-radius: 15px;
+  padding: 10px;
+  color: #FFC30F;
+}
+*/
 
 p {
   color: #FFC30F;
@@ -44,17 +60,17 @@ p {
     margin: 0 auto;
 }
 
-/* This margin part of this class currently isn't working... */
 .showimages img {
   margin-right: 50px;
   border-radius: 8px;
-}
+  border: 2px solid #FFC30F; /* I'd like to add a 1px black line around the yellow border if I can work it out... */
+  }
 
 .img_wrap {
   position: relative;
   height: 317px; /* The image height should be 300px but for some reason the description box height has to be 317px - very specifically */
   width: 250px;
-  margin: 5px;
+  margin: 30px;
   display: inline-block;
 }
 
@@ -73,6 +89,8 @@ p {
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
+  border-radius: 8px;
+  font-size: 20px;
 }
 
 .img_wrap:hover .item_description {
@@ -132,16 +150,31 @@ img {
   color: #FFC30F;
 }
 
-p.headerparagraph {
-  background: rgba(0, 0, 0, 0.5);
+.headerparagraph {
+  background-color: #58184590;
   margin: 0px 250px 0 250px;
   border-radius: 15px;
   padding: 10px;
-  color: white;
+  color: #FFC30F;
+  /* Still need to add opacity settings for internet explorer and such */
+}
+
+.about_text {
+  margin: 30px 50px 0 50px;
+  text-align: left;
+  color: black;
+  im
+}
+.codefirst_img {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 50px 0; /* I'd like to add a border and radius to this but I can't seem to attach the class to the right element in the html to make sure it also stays centered */
 }
 
 header {
-  background: url('https://hotelconnexions.com/images/hotels/large7/1497603357HiltonGardenInnGlasgowExterior.jpg');
+  background: url('http://www.nextstepinitiative.org.uk/wp-content/uploads/2017/01/glasgow-city.jpg'); /* I need to photoshop the watermark out of this...*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,6 +263,7 @@ button {
     background-color: white;
     color: black;
     border: 2px solid #FFC30F;
+    border-radius: 8px;
 }
 
 .button1:hover {
