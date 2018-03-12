@@ -173,8 +173,8 @@ to {
   /* Still need to add opacity settings for internet explorer and such */
 }
 
-.about_text {
-  margin: 30px 50px 0 50px;
+p .about_text {
+  margin: 30px 0 0 50px;
   text-align: left;
   color: black;
   width: 700px
@@ -188,7 +188,9 @@ to {
 }
 
 .masks {
-  text-align: right;
+  float: right;
+  vertical-align: top;
+  margin: 0 30px 0 0;
 }
 
 a {
