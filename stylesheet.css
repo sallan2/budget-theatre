@@ -59,7 +59,7 @@ p {
 
 .img_wrap {
   position: relative;
-  height: 317px; /* The image height should be 300px but for some reason the description box height has to be 317px - very specifically */
+  height: 316px; /* The image height should be 300px but for some reason the description box height has to be 316px - very specifically */
   width: 250px;
   margin: 30px;
   display: inline-block;
@@ -158,7 +158,7 @@ img {
   margin: 30px 50px 0 50px;
   text-align: left;
   color: black;
-  im
+  width: 700px
 }
 .codefirst_img {
   height: 10em;
@@ -166,6 +166,10 @@ img {
   align-items: center;
   justify-content: center;
   margin: 0 0 50px 0;
+}
+
+.masks {
+  text-align: right;
 }
 
 a {
