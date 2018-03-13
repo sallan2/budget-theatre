@@ -118,6 +118,7 @@ img {
 .row {
   color: white;
   padding: 10px;
+  margin-right: 0px;
 }
 
 .fa {
