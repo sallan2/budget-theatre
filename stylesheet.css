@@ -132,6 +132,10 @@ img {
   margin: 0 auto;
 }
 
+.fa:hover {
+  color: #FF5733;
+}
+
 .container-fluid {
   float: right;
 }
