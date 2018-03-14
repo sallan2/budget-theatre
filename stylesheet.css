@@ -135,7 +135,20 @@ img {
 
 .fa:hover {
   color: #FF5733;
+  -webkit-animation: infinite-spinning 1s ease-out 0s infinite normal;
+  animation: infinite-spinning 1s ease-out 0s infinite normal;
 }
+
+@keyframes infinite-spinning {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(-45deg);
+}
+}
+
+
 
 .container-fluid {
   float: right;
