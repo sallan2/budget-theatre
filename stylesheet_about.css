@@ -37,68 +37,6 @@ h3 {
   padding: 0 0 20px 0;
 }
 
-p {
-  color: #FFC30F;
-  text-align: center;
-}
-
-.image_container {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.showimages img {
-  margin-right: 50px;
-  border-radius: 8px;
-  padding: 2px;
-  border: 1px solid #000000;
-  background-color: #FFC30F;
-  }
-
-
-
-.img_wrap {
-  position: relative;
-  height: 316px; /* The image height should be 300px but for some reason the description box height has to be 316px - very specifically */
-  width: 250px;
-  margin: 30px;
-  display: inline-block;
-}
-
-.item_description {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.5);
-  color: black;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-em {
-  position: absolute;
-  margin-top: -30px;
-}
-
-.img_wrap:hover .item_description {
-  visibility: visible;
-  opacity: 1;
-}
-
-
-img {
-  image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-}
-
 .test {
   margin: 0px 0 40px 0px;
 }
@@ -109,18 +47,6 @@ img {
 
 .whatson {
   padding: 10px;
-  /* border-bottom: 6px solid #FF5733 */
-}
-
-.contact {
-  padding: 10px;
-}
-
-.row {
-  color: white;
-  padding: 10px;
-  margin-right: 0px;
-
 }
 
 .fa {
@@ -165,18 +91,18 @@ to {
 }
 
 #headerparagraph {
+  background-color: #58184590;
   margin: 0px 0 0 0;
   border-radius: 15px;
   padding: 20px;
   color: #FFC30F;
   position: center;
-  background: #581845;
-  background: -webkit-linear-gradient(bottom, rgba(144,12,63,.6), rgba(88,24,69,.6));
-  background: -moz-linear-gradient(bottom, rgba(144,12,63,.6), rgba(88,24,69,.5));
+
+  /* Still need to add opacity settings for internet explorer and such */
 }
 
 .about_text {
-  margin: 30px 50px 0 50px;
+  margin: 30px 0 0 50px;
   text-align: left;
   color: black;
   width: 700px
@@ -186,11 +112,11 @@ to {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0 50px 0;
+  margin: 90px 0 50px 0;
 }
 
 .masks {
-  text-align: right;
+  float: right;
 }
 
 a {
@@ -205,12 +131,9 @@ header {
   background-size: cover;
   width: 100%;
   display: inline-block;
-  border-bottom: 6px solid #FF5733;
+  border-bottom: 6px solid #FF5733
 }
 
-footer {
-  border-bottom: 6px solid #FF5733;
-}
 
 form {
   /* Just to center the form on the page */
