@@ -80,15 +80,14 @@ to {
 }
 }
 
-
-
 .container-fluid {
   float: right;
 }
+
 .form-text {
   color: #FFC30F;
-
 }
+
 .navbar-header {
   color: #FFC30F;
 }
@@ -100,8 +99,6 @@ to {
   padding: 20px;
   color: #FFC30F;
   position: center;
-
-  /* Still need to add opacity settings for internet explorer and such */
 }
 
 .about_text {
@@ -110,6 +107,7 @@ to {
   color: black;
   width: 700px
 }
+
 .codefirst_img {
   height: 10em;
   display: flex;

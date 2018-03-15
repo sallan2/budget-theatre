@@ -55,8 +55,6 @@ p {
   background-color: #FFC30F;
   }
 
-
-
 .img_wrap {
   position: relative;
   height: 316px; /* The image height should be 300px but for some reason the description box height has to be 316px - very specifically */
@@ -94,7 +92,6 @@ em {
   opacity: 1;
 }
 
-
 img {
   image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
@@ -109,7 +106,6 @@ img {
 
 .whatson {
   padding: 10px;
-  /* border-bottom: 6px solid #FF5733 */
 }
 
 .contact {
@@ -121,7 +117,6 @@ img {
   color: white;
   padding: 10px;
   margin-right: 0px;
-
 }
 
 .fa {
@@ -152,15 +147,14 @@ to {
 }
 }
 
-
-
 .container-fluid {
   float: right;
 }
+
 .form-text {
   color: #FFC30F;
-
 }
+
 .navbar-header {
   color: #FFC30F;
 }
@@ -182,6 +176,7 @@ to {
   color: black;
   width: 700px
 }
+
 .codefirst_img {
   height: 10em;
   display: flex;
